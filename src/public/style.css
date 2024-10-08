@@ -1,0 +1,138 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff; /* Fundo preto */
+    color: #000000; /* Texto branco para contraste */
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #40E0D0; /* Fundo roxo */
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;    
+}
+
+nav ul {
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff; /* Links em azul elétrico */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+#hero {
+    background-color: #fff; 
+    color: #000000;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #00aeffb6; /* Botões laranja vibrante */
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #398ec6; /* Hover em verde lima */
+}
+
+/* Seção de conteúdo */
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+section#projetos .projeto {
+    background-color: #ffffff; /* Projetos com fundo cinza escuro */
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#contato {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+#contato h2 {
+    margin-bottom: 20px; /* Espaço entre o título e as imagens */
+}
+
+#contato a {
+    display: inline-block; /* Faz com que as âncoras (links) se comportem como blocos em linha */
+    margin: 0 30px; /* Espaço horizontal entre as imagens */
+}
+
+#contato img {
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 0;
+    width: 25px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #40E0D0; 
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #hero h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.5rem;
+    }
+
+    #contato a {
+        margin: 0 15px;
+    }
+
+    #contato img {
+        width: 20px;
+    }
+}
+
+
+
